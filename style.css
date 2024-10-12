@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 20vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background: rgb(140,135,219);
+    background: linear-gradient(90deg, rgba(140,135,219,1) 0%, rgba(255,118,252,1) 59%, rgba(0,212,255,1) 100%);
+
+}
+
+input{
+    border-width: 10px;
+    border-image: linear-gradient(270deg, rgba(140,135,219,1) 0%, rgba(255,118,252,1) 59%, rgba(0,212,255,1) 100%) 1;
+    border-style: solid;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+button{
+    padding: 15px 30px;
+}
