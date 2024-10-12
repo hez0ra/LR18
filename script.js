@@ -12,7 +12,15 @@ button.onclick = () => {
     const birthday_ = birthday.value.trim();
     const message_ = message.value.trim();
 
-    const nameReg = /^[А-Яа-я]{3,30} [А-Яа-я]{3,30}$/;
-    alert(nameReg.test(name__)); 
+    const nameReg = /^[A-Za-z]{3,30} [A-Za-z]{3,30}$/;
+    const emailReg = /^[A-Za-z]{2,}@[A-Za-z]{2,}.[A-Za-z]{2,}$/;
+    const numberReg = /^+?375\s?$/
+    if(!nameReg.test(name__) || !name__.length() <= 30){
+        alert("invalid name");
+    }
+    if(!emailReg.test(email_)){
+        alert('invalid email');
+    }
+
     
 }
