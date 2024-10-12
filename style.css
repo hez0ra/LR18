@@ -22,9 +22,15 @@ input{
     border-image: linear-gradient(270deg, rgba(140,135,219,1) 0%, rgba(255,118,252,1) 59%, rgba(0,212,255,1) 100%) 1;
     border-style: solid;
     padding: 40px;
+}
+
+input:first-child{
     text-transform: uppercase;
 }
 
 button{
     padding: 15px 30px;
+    background: rgb(140,135,219);
+    background: linear-gradient(270deg, rgba(140,135,219,1) 0%, rgba(255,118,252,1) 59%, rgba(0,212,255,1) 100%);
+    border: 1px solid black;
 }
