@@ -9,10 +9,15 @@
 </head>
 <body>
     <input type="text" id="name" placeholder="ИМЯ И ФАМИЛИЯ">
+    <p class="error" id="error-name">Пожалуйста, введите корректные имя и фамилию.</p>
     <input type="text" id="email" placeholder="Электронная ПОЧТА">
+    <p class="error" id="error-email">Пожалуйста, введите корректный email.</p>
     <input type="text" id="number" placeholder="номер ТЕЛЕФОНА">
-    <input type="text" id="birthday" placeholder="ДАТА РОЖДЕНИЯ">
-    <input type="text" id="message" placeholder="СООБЩЕНИЕ">
+    <p class="error" id="error-number">Пожалуйста, введите корректный номер телефона.</p>
+    <input type="date" id="birthday" placeholder="ДАТА рождения" >
+    <p class="error" id="error-birthday">Пожалуйста, введите корректный дату рождения.</p>
+    <input type="text" id="message" placeholder="Сообщение">
+    <p class="error" id="error-message">Пожалуйста, введите корректное сообщение.</p>
     <button id="check">Проверить все поля</button>
 </body>
 </html>
