@@ -13,7 +13,7 @@ button.onclick = () => {
     const message_ = message.value.trim();
 
     const nameReg = /^[A-Za-z]{3,30} [A-Za-z]{3,30}$/;
-    const emailReg = /^[A-Za-z]{2,}@[A-Za-z]{2,}.[A-Za-z]{2,}$/;
+    const emailReg = /^[A-Za-z]{2,}@[A-Za-z]{2,}\.[A-Za-z]{2,}$/;
     const numberReg = /^\+?375\s?[\-\(]?\d{2}[\-\)]?\s?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}$/
 
     const currentDate = new Date();
